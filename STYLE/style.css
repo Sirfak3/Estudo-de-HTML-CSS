@@ -8,7 +8,7 @@ body{
 
 .conteudoBox{
   display: flexbox;
-  min-width: 550px;
+  min-width: 400px;
   max-width: 1000px;
   padding: 20px;
   margin: 20px;
@@ -52,7 +52,7 @@ h1{
 .SubaruBookDiv{
   text-align: center;
   width: 100%;
-  height: 424,3548387096774px;
+  height: 360px;
 
    & #SubaruBook{
      width: 400px;
