@@ -1,6 +1,7 @@
 body{
   display: flexbox;
   background-color: black;
+  justify-items: center;
   justify-content: center;
   font-family: "platypi", serif;
 }
