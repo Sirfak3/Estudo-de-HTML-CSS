@@ -4,7 +4,10 @@ body{
   text-align: center;
   align-items: center;
   font-family: "platypi", serif;
-  
+
+  @media (min-width:1200px){
+    justify-content: center;
+  }
 }
 
 .conteudoBox{
