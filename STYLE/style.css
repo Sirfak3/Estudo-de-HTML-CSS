@@ -1,14 +1,14 @@
 body{
   display: flex;
   background-color: black;
-  justify-content: center;
+  text-align: center;
   align-items: center;
-  justify-items: center;
   font-family: "platypi", serif;
+  
 }
 
 .conteudoBox{
-  display: flexbox;
+  display: flex;
   min-width: 400px;
   max-width: 1000px;
   padding: 20px;
@@ -22,49 +22,43 @@ body{
 
 .buttonBox{
   display: flex;
-  width: 100%;
-  height: 100%;
   justify-content: space-around;
-  text-align: center;
+}
 
-  .buttons{
-    background: linear-gradient(to left, #fff, orange);
-    color: black;
-    font-family: "platypi", serif;
-    width: 120px;
-    padding:5px 0;
-    border: none;
-    border-radius: 5px;
-  
-    &:hover{
-      box-shadow: #0bffde 0 0 20px;
-    }
-  }
+.buttons{
+  background: linear-gradient(to left, #fff, orange);
+  color: black;
+  font-family: "platypi", serif;
+  width: 120px;
+  padding:5px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.buttons:hover{
+  box-shadow: #0bffde 0 0 20px;
+}
+
+h1, h3{
+  text-align: center;
+  color: #fff;
+  padding: 5px 0 5px 0;
 }
 
 h1{
-  text-align: center;
-  border-radius: 10px;
-  padding: 5px 0 5px 0;
-  color: #fff;
   background-color: rgb(255, 166, 0);
+  border-radius: 10px;
 }
 
-.SubaruBookDiv{
-  text-align: center;
-  width: 100%;
-  height: 424,3548387096774px;
-
-   & #SubaruBook{
-     width: 360px;
-     height: 100%;
-     margin: 20px;
-     border-radius: 10px;
-   }
+h3{
+   background-color: orange;
+   border-radius: 10px 10px 0 0;
+   margin-top: 0;
 }
 
 .conteudo{
   display: flexbox;
+  margin-bottom: 20px;
   width: 100%;
   height: 100%;
   justify-items: center;
@@ -72,16 +66,6 @@ h1{
   background-color: #fff;
   color: black;
   border-radius: 10px;
-}
-
-h3{
-  width: 100%;
-  height: 100%;
-  padding: 5px 0 5px 0;
-  text-align: center;
-  background-color: orange;
-  border-radius: 10px 10px 0 0;
-  align-items: center;
 }
 
 p{
@@ -96,15 +80,16 @@ h4{
   margin: 5px;
 }
 
-.SubaruSatella{
+.SubaruBookDiv, .SubaruSatella{
   text-align: center;
   width: 100%;
-  height: 424,3548387096774px;
+  height: 424;
   flex-direction: column;
 }
 
-#Subaru_SatellaPhotos{
-    width: 300px;
-    filter: drop-shadow(5px 5px 5px rgb(105, 0, 131));
+#SubaruBook, #Subaru_SatellaPhotos{
+   width: 300px;
+   filter: drop-shadow(5px 5px 5px rgb(105, 0, 131));
+   border-radius: 10px;
 }
 
